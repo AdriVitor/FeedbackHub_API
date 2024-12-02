@@ -9,5 +9,6 @@ namespace EnterpriseService_Application.Services.Interfaces
         public Task Update(EnterpriseDTO enterpriseDto);
         public Task Delete(int id);
         public Task<Enterprise> Get(int id);
+        public Task<bool> EnterpriseExists(int id);
     }
 }

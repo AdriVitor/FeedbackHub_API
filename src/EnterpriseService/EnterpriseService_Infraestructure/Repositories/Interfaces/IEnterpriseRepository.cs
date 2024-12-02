@@ -8,5 +8,6 @@ namespace EnterpriseService_Infraestructure.Repositories.Interfaces
         public Task Update(Enterprise enterprise);
         public Task Delete(Enterprise enterprise);
         public Task<Enterprise> Get(int id);
+        public Task<bool> EnterpriseExists(int id);
     }
 }

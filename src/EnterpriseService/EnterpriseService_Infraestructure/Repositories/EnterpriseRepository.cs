@@ -41,6 +41,12 @@ namespace EnterpriseService_Infraestructure.Repositories
             await SaveChanges();
         }
 
+        public async Task<bool> EnterpriseExists(int id)
+        {
+            var enterpriseExists = await _contextDb.Enterprises.AnyAsync(e => e.Id == id);
+            return enterpriseExists;
+        }
+
         private async Task SaveChanges()
         {
             await _contextDb.SaveChangesAsync();

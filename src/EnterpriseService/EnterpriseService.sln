@@ -11,6 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseService_Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnterpriseService_Infraestructure", "EnterpriseService_Infraestructure\EnterpriseService_Infraestructure.csproj", "{7257760C-174D-44D1-B0B3-46F0E2D0DFA2}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ_Lib", "..\..\RabbitMQ_Lib\RabbitMQ_Lib.csproj", "{21F56E08-B289-4727-AA3A-F4C16BE15CD4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedUtilities", "..\..\SharedUtilities\SharedUtilities.csproj", "{D5231C68-27A8-400F-B8EB-56851A42E01D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{7257760C-174D-44D1-B0B3-46F0E2D0DFA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7257760C-174D-44D1-B0B3-46F0E2D0DFA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7257760C-174D-44D1-B0B3-46F0E2D0DFA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21F56E08-B289-4727-AA3A-F4C16BE15CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21F56E08-B289-4727-AA3A-F4C16BE15CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21F56E08-B289-4727-AA3A-F4C16BE15CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21F56E08-B289-4727-AA3A-F4C16BE15CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5231C68-27A8-400F-B8EB-56851A42E01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5231C68-27A8-400F-B8EB-56851A42E01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5231C68-27A8-400F-B8EB-56851A42E01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5231C68-27A8-400F-B8EB-56851A42E01D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

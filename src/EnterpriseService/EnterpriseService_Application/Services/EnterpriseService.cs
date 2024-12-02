@@ -2,12 +2,14 @@
 using EnterpriseService_Application.Services.Interfaces;
 using EnterpriseService_Domain.Entities;
 using EnterpriseService_Infraestructure.Repositories.Interfaces;
+using RabbitMQ_Lib;
 
 namespace EnterpriseService_Application.Services
 {
     public class EnterpriseService : IEnterpriseService
     {
         private readonly IEnterpriseRepository _enterpriseRepository;
+        
         public EnterpriseService(IEnterpriseRepository enterpriseRepository)
         {
             _enterpriseRepository = enterpriseRepository;
@@ -42,6 +44,11 @@ namespace EnterpriseService_Application.Services
             enterprise = new Enterprise(enterprise.Id, enterpriseDto.Name, enterpriseDto.CNPJ, enterpriseDto.Description);
 
             await _enterpriseRepository.Update(enterprise);
+        }
+
+        public async Task<bool> EnterpriseExists(int id)
+        {
+            return await _enterpriseRepository.EnterpriseExists(id);
         }
     }
 }
