@@ -2,19 +2,33 @@
 using Product_Application.Services.Interfaces;
 using Product_Domain.Entities;
 using Product_Infraestructure.Repositories.Interfaces;
+using RabbitMQ_Lib;
 
 namespace Product_Application.Services
 {
     public class ProductService : IProductService
     {
         private readonly IProductRepository _productRepository;
-        public ProductService(IProductRepository productRepository)
+        private readonly RabbitMQService _rabbitmqService;
+        public ProductService(IProductRepository productRepository, RabbitMQService rabbitMQService)
         {
             _productRepository = productRepository;
+            _rabbitmqService = rabbitMQService;
         }
 
         public async Task Add(ProductDTO productDto)
         {
+            var basicProperties = _rabbitmqService.ConfigureBasicProperties("testefila2");
+            _rabbitmqService.SendMessage(productDto.IdEnterprise.ToString(), "teste1", "routingkey", basicProperties);
+
+            var tupla = await _rabbitmqService.ReceiveMessage("testefila2", basicProperties.CorrelationId);
+
+            var message = tupla.Item1;
+            if (Convert.ToBoolean(message) == false)
+            {
+                throw new Exception("Estabelecimento não encontrado");
+            }
+
             var product = new Product(productDto.Name, productDto.Description, productDto.IdEnterprise);
             await _productRepository.Add(product);
         }

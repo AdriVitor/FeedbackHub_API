@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="RabbitMQService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\RabbitMQ_Lib\RabbitMQ_Lib.csproj" />
     <ProjectReference Include="..\Product_Domain\Product_Domain.csproj" />
     <ProjectReference Include="..\Product_Infraestructure\Product_Infraestructure.csproj" />
   </ItemGroup>
