@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "csUqyFP4O6XDmCO8F2yWq0AnmEhoEXSOHz8eXk6qfcE=",
+  "Source": "EnterpriseService_API",
+  "BasePath": "_content/EnterpriseService_API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

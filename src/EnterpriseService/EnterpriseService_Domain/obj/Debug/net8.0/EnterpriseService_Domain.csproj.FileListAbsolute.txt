@@ -1,0 +1,12 @@
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\bin\Debug\net8.0\EnterpriseService_Domain.deps.json
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\bin\Debug\net8.0\EnterpriseService_Domain.dll
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\bin\Debug\net8.0\EnterpriseService_Domain.pdb
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\EnterpriseService_Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\EnterpriseService_Domain.AssemblyInfoInputs.cache
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\EnterpriseService_Domain.AssemblyInfo.cs
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\EnterpriseService_Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\EnterpriseService_Domain.sourcelink.json
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\EnterpriseService_Domain.dll
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\refint\EnterpriseService_Domain.dll
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\EnterpriseService_Domain.pdb
+C:\Projetos\Backend\FeedbackHubAPI\src\EnterpriseService\EnterpriseService_Domain\obj\Debug\net8.0\ref\EnterpriseService_Domain.dll
