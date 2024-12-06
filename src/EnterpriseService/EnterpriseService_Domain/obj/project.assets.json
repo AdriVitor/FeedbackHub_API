@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\Backend\\FeedbackHubAPI\\src\\enterpriseservice\\EnterpriseService_Domain\\EnterpriseService_Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\Backend\\FeedbackHubAPI\\src\\EnterpriseService\\EnterpriseService_Domain\\EnterpriseService_Domain.csproj",
       "projectName": "EnterpriseService_Domain",
-      "projectPath": "C:\\Projetos\\Backend\\FeedbackHubAPI\\src\\enterpriseservice\\EnterpriseService_Domain\\EnterpriseService_Domain.csproj",
+      "projectPath": "C:\\Projetos\\Backend\\FeedbackHubAPI\\src\\EnterpriseService\\EnterpriseService_Domain\\EnterpriseService_Domain.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\Backend\\FeedbackHubAPI\\src\\enterpriseservice\\EnterpriseService_Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\Backend\\FeedbackHubAPI\\src\\EnterpriseService\\EnterpriseService_Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
